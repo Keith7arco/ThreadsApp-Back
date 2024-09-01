@@ -1,0 +1,11 @@
+GET http://localhost:3000/users HTTP/1.1
+
+###
+
+POST http://localhost:3000/users HTTP/1.1
+content-Type: application/json
+
+{
+  "name":"Carlos",
+  "img":"https://fotografias.lasexta.com/clipping/cmsimages01/2021/11/26/B1018B25-EB41-4CD9-A81A-CDED31127A4A/98.jpg?crop=2120,1193,x0,y113&width=1900&height=1069&optimize=high&format=webply"
+}

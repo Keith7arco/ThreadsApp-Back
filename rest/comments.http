@@ -1,0 +1,14 @@
+GET http://localhost:3000/comments HTTP/1.1
+
+###
+GET http://localhost:3000/comments?parendId=66b14a5899c740fe11c928b5 HTTP/1.1
+
+###
+POST http://localhost:3000/comments HTTP/1.1
+content-Type: application/json
+
+{
+  "text":"Thrid Comment",
+  "userId":"66b14a2699c740fe11c928ae",
+  "parentId":""
+}
